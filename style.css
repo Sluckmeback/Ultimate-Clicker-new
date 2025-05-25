@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+}
+
+#app {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#click-btn {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  background: #00c853;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+#click-btn:active {
+  transform: scale(0.95);
+  background: #00e676;
+}
+
+#score-display {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#stats p {
+  margin: 5px;
+}
+
+#progress-container {
+  background: #333;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #00e5ff;
+  transition: width 0.3s;
+}
+
+#shop h2 {
+  margin: 20px 0 10px;
+}
+
+#shop button, #save-reset button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #2962ff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#shop button:hover, #save-reset button:hover {
+  background: #0039cb;
+}
+
+#save-reset {
+  margin-top: 20px;
+}
+#upgrades {
+  margin-top: 30px;
+}
+
+#upgrades button.upgrade {
+  background: #ff6d00;
+}
+
+#upgrades button.upgrade:hover {
+  background: #e65100;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔥 Ultimate Кликер</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>🔥 Ultimate Кликер</h1>
+    <div id="score-display">Очки: <span id="score">0</span></div>
+    <button id="click-btn">🖱️ Кликнуть</button>
+
+    <div id="stats">
+      <p>Множитель: <span id="multiplier">1x</span></p>
+      <p>Автокликеры: <span id="auto">0</span></p>
+    </div>
+
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="shop">
+      <h2>🛒 Магазин</h2>
+      <button id="buy-multiplier">🔼 Множитель (x2) – 100</button>
+      <button id="buy-auto">🤖 Автокликер – 250</button>
+      <button id="buy-boost">⚡ Буст (10x на 10сек) – 1000</button>
+    </div>
+
+    <div id="save-reset">
+      <button id="save">💾 Сохранить</button>
+      <button id="reset">🔁 Сбросить</button>
+    </div>
+  </div>
+
+  <audio id="click-sound" src="yippeeeeeeeeeeeeee.mp3" preload="auto"></audio>
+  <script src="app.js"></script>
+  
+</body>
+</html>
